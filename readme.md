@@ -1,3 +1,3 @@
 # My Personal Theme
 
-This is my personal theme
+This is my website personal theme
