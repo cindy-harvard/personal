@@ -2,8 +2,93 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+// background and color for nav bar
 .navbar {
   border: none;
   border-radius: 0px;
   margin-bottom: 0px;
+  background-color: white;
+  /*padding-bottom: 10px;
+  padding-top: 10px;
+  */
+}
+
+// active color for menu link
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #ffffff;
+  color: #8490ff;
+}
+
+// default text styling for menu link
+.nav-item {
+  text-decoration: none;
+  display: inline-block;
+  color: #222;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+//  default text color for menu link
+.navbar-default .navbar-nav > li > a {
+  color: #222;
+}
+
+// hover color for menu link
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #8490ff;
+  background-color: transparent;
+}
+
+// default text for menu dropdown link
+.dropdown-menu > li > a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+// hover text and background color for menu dropdown link
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  color: #8490ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+// set border radius of dropdown menu to 0px
+.dropdown-menu {
+  border-radius: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+// create upper and lower padding between dropdown list item
+.dropdown-item {
+  padding: 5px 0;
+}
+
+// change active background color of dropdown menu item to white
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #ffffff;
+  color: #8490ff;
+}
+
+// change top and bottom padding of nav bar while keep dropdown directly under
+.navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+//sticky nav
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

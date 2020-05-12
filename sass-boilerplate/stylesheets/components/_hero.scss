@@ -4,7 +4,7 @@
 
 .hero-image {
   height: 500px;
-  background-color: #212121;
+  background-color: #f9f9ff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,5 +17,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+}
+
+#navbar {
+  overflow: hidden;
 }

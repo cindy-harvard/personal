@@ -10,16 +10,16 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="sass-boilerplate/stylesheets/main.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- navigation bar-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="navbar">
       <div class="container">
         <div class="navbar-header">
           <button
-            type="button"
+            type="button" 
             class="navbar-toggle"
             data-toggle="collapse"
             data-target="#myNavbar"
@@ -32,36 +32,62 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li class="nav-item active"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Services</a></li>
+            <li class="nav-item"><a href="#">Portfolio</a></li>
+            <li class="nav-item"><a href="#">Pricing</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              <a
+                class="nav-item dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
                 >Blog <span class="caret"></span
               ></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Blog Home</a></li>
-                <li><a href="#">Blog Single</a></li>
+                <li class="dropdown-item"><a href="#">Blog Home</a></li>
+                <li class="dropdown-item"><a href="#">Blog Single</a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+              <a
+                class="nav-item dropdown-toggle"
+                data-toggle="dropdown"
+                href="#"
                 >Pages <span class="caret"></span
               ></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Elements</a></li>
-                <li><a href="#">Level 2</a></li>
+                <li class="dropdown-item"><a href="#">Elements</a></li>
+                <li class="dropdown-item"><a href="#">Level 2</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- hero banner -->
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Hero Image</h1>
+        <h4>Hero subtitle. Vertically and horizontally centered.</h4>
+      </div>
+    </div>
+  </body>
+</html>
+
+    <!-- hero banner 2-->
+    <div class="hero-image" style="background-color: #ffffff;">
+      <div class="hero-text">
+        <h1>Hero Image</h1>
+        <h4>Hero subtitle. Vertically and horizontally centered.</h4>
+      </div>
+    </div>
+  </body>
+</html>
+
+    <!-- hero banner 3-->
     <div class="hero-image">
       <div class="hero-text">
         <h1>Hero Image</h1>
