@@ -557,6 +557,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .hero-image {
@@ -575,9 +576,5 @@ p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-#navbar {
-  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
