@@ -8,9 +8,7 @@
   border-radius: 0px;
   margin-bottom: 0px;
   background-color: white;
-  /*padding-bottom: 10px;
-  padding-top: 10px;
-  */
+  transition: all 0.5s linear;
 }
 
 // active color for menu link
@@ -92,4 +90,9 @@
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+// navbar dropshadow on page scroll
+.navbar.active {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }

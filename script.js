@@ -1,15 +1,8 @@
-/*window.onscroll = function () {
-  myFunction();
-};
-
-var navbar = document.getElementById("hello");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
+$(window).scroll(function () {
+  var scroll = $(window).scrollTop();
+  if (scroll > 0) {
+    $(".navbar").addClass("active");
   } else {
-    navbar.classList.remove("sticky");
+    $(".navbar").removeClass("active");
   }
-}
-*/
+});
