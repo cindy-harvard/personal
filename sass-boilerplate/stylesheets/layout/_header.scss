@@ -62,6 +62,8 @@
   border-radius: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 // create upper and lower padding between dropdown list item
@@ -96,3 +98,21 @@
 .navbar.active {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
+
+// dropdown menu opens on hover
+/*
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+*/

@@ -533,6 +533,9 @@ p {
   border-radius: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
+  border: none;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-item {
@@ -564,6 +567,22 @@ p {
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
+/*
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+*/
 .hero-image {
   height: 500px;
   background-color: #f9f9ff;
