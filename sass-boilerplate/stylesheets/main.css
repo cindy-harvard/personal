@@ -567,10 +567,8 @@ p {
           box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
 }
 
-/*
 .dropdown {
   float: left;
-  overflow: hidden;
 }
 
 .dropdown-menu {
@@ -582,7 +580,7 @@ p {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
-*/
+
 .hero-image {
   height: 500px;
   background-color: #f9f9ff;
