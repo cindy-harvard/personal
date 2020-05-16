@@ -24,7 +24,7 @@ the new .navbar-brand 80px height  */
 }
 
 .navbar-toggle .icon-bar {
-  border: 1px solid #6d6d6d;
+  background-color: #6d6d6d;
 }
 
 .navbar-primary {
@@ -79,4 +79,19 @@ the new .navbar-brand 80px height  */
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+// MOBILE
+
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.8);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
 }
