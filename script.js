@@ -10,11 +10,11 @@ $(window).scroll(function () {
 
 // curtain nav
 function openNav() {
-  document.getElementById("navbar").style.width = "80%";
+  document.getElementById("myNav").style.width = "80%";
 }
 
 function closeNav() {
-  document.getElementById("navbar").style.width = "0%";
+  document.getElementById("myNav").style.width = "0%";
 }
 
 /* create function where if you you click outside
